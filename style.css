@@ -1,0 +1,153 @@
+/* Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #00d4ff;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    text-align: center;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #0077b6;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Skills */
+ul {
+    list-style: none;
+}
+
+ul li {
+    padding: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #0077b6;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #023e8a;
+}
+
+/* Skills Section */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background-color: #eaf4ff;
+    padding: 25px;
+    width: 180px;
+    border-radius: 10px;
+    border: 1px solid #0077b6;
+}
+
+.skill-card h3 {
+    color: #0077b6;
+    margin-bottom: 10px;
+}
+
+.skill-card p {
+    font-size: 14px;
+}
+
+/* Projects Section */
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: #eaf4ff;
+    width: 280px;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #0077b6;
+}
+
+.project-card h3 {
+    color: #0077b6;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.project-card span {
+    color: #0077b6;
+    font-weight: bold;
+}
+
+/* Contact Section */
+.contact-info {
+    margin-top: 20px;
+    line-height: 2;
+}
+
+.contact-info p {
+    font-size: 16px;
+}
